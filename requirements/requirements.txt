@@ -134,3 +134,4 @@ ipython==8.14.0
 ForgeryPy3==0.3.1
 django-debug-toolbar==4.1.0
 Pympler==1.0.1
+aiohttp>=3.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
