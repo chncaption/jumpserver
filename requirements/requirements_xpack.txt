@@ -22,3 +22,4 @@ pymssql==2.2.7
 IPy==1.1
 psycopg2==2.9.6
 ucloud-sdk-python3==0.11.50
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
