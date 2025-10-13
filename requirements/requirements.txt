@@ -105,7 +105,7 @@ kombu==5.3.1
 uvicorn==0.23.1
 websockets==11.0.3
 # Auth
-python-ldap==3.4.3
+python-ldap==3.4.5
 ldap3==2.9.1
 #django-radius==1.5.0
 git+https://github.com/robgolding/django-radius@develop#egg=django-radius
