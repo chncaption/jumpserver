@@ -45,7 +45,7 @@ six==1.16.0
 sshtunnel==0.4.0
 sshpubkeys==3.3.1
 uritemplate==4.1.1
-urllib3==1.26.16
+urllib3==2.6.0
 vine==5.0.0
 Werkzeug==2.3.6
 unicodecsv==0.14.1
@@ -70,7 +70,7 @@ geoip2==4.7.0
 ipip-ipdb==1.6.1
 pywinrm==0.4.3
 # Django environment
-Django==4.2.3
+Django==4.2.27
 django-bootstrap3==23.4
 django-filter==23.2
 django-formtools==2.4.1
@@ -134,3 +134,4 @@ ipython==8.14.0
 ForgeryPy3==0.3.1
 django-debug-toolbar==4.1.0
 Pympler==1.0.1
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
